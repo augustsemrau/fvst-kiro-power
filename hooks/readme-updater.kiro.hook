@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "name": "Update README on code changes",
+  "description": "When a main entry-point file is saved, Kiro checks whether README.md is still accurate and updates it if needed",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": ["app.py", "index.html", "requirements.txt", "manifest.json"]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A key project file was just changed. Check whether the project's README.md is still accurate — particularly: the description of what the prototype does, the run instructions, and any new dependencies. Update README.md if anything is outdated. Write in plain language without technical jargon."
+  }
+}
