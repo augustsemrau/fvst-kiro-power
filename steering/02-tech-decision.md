@@ -122,6 +122,28 @@ Can be shared by sending the file, or hosted for free on GitHub Pages.
 
 ---
 
+## When requirements conflict
+
+Sometimes a user's needs pull in opposite directions. Common examples:
+
+- *"I want it on my phone AND it needs to read from our company database"*
+- *"It should work offline AND sync data between users"*
+- *"I need it for my team but they are in different offices"*
+
+**How to handle this:**
+
+1. Acknowledge both needs — do not dismiss either one
+2. Build the part that fits within prototype scope first (the phone app, the offline tool, the local version)
+3. Explain clearly what can be done now and what needs a technical colleague:
+
+> *"I can build the phone app with the features you described — it will work great for one person. Connecting it to the company database is something a technical colleague can add later. Let me start with the app itself, and then I'll write a clear summary for your IT team about the database part."*
+
+4. Use the handoff protocol in `04-handoff.md` for the part that exceeds scope — but do not delay building the part that works
+
+Never pretend both requirements can be solved within prototype scope if they cannot. Be honest and practical.
+
+---
+
 ## Virtual environment — always for Python projects
 
 Always include these instructions in README.md for Python projects:

@@ -1,6 +1,6 @@
 # fvst-kiro-power
 
-A Kiro Power that helps FVST employees build working prototypes from ideas — no technical experience required.
+A Kiro Power that helps FVST employees build working prototypes from ideas, or rebuild and improve existing tools — no technical experience required.
 
 ## Installation (for users)
 
@@ -44,7 +44,8 @@ fvst-kiro-power/
     ├── 03-pwa-patterns.md        ← Patterns for mobile apps (auto-loaded)
     ├── 04-handoff.md             ← Handoff to technical colleague (auto-loaded)
     ├── 05-prototype-review.md    ← Prototype review (/prototype-review)
-    └── 06-refactor-onboarding.md ← Rebuild/improve existing systems (auto-loaded)
+    ├── 06-refactor-onboarding.md ← Rebuild/improve existing systems (auto-loaded)
+    └── 07-streamlit-patterns.md  ← Patterns for desktop apps (auto-loaded)
 ```
 
 ---

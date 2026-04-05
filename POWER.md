@@ -1,7 +1,7 @@
 ---
 name: "fvst"
 displayName: "FVST Prototype Kit"
-description: "Helps FVST employees build working prototypes from ideas — no technical experience required"
+description: "Helps FVST employees build working prototypes from ideas, or rebuild and improve existing tools — no technical experience required"
 keywords:
   - idea
   - prototype
@@ -15,6 +15,11 @@ keywords:
   - excel
   - report
   - workflow
+  - website
+  - data
+  - help
+  - fix
+  - problem
   - refactor
   - rebuild
   - rewrite
@@ -27,11 +32,14 @@ keywords:
   - bygge
   - telefon
   - automatisere
+  - hjemmeside
+  - hjælp
+  - fikse
   - forbedre
   - erstatte
   - modernisere
   - eksisterende
-version: "1.1.0"
+version: "1.2.0"
 ---
 
 # FVST Prototype Kit — Onboarding and Workflow
