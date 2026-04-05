@@ -16,10 +16,13 @@ That's it. The next time you open a project and describe your idea, the power ac
 
 ## What the power does
 
-When you mention words like "idea", "prototype", "build", "app", "automate", "phone", "dashboard", or "report" — or their Danish equivalents — Kiro automatically loads the FVST context and guides you through the process.
+When you mention words like "idea", "prototype", "build", "app", "automate", "phone", "dashboard", "report", "rebuild", "replace", "improve", or "refactor" — or their Danish equivalents — Kiro automatically loads the FVST context and guides you through the process.
 
-**The power controls:**
-- How Kiro interviews you about your idea
+**The power handles two paths:**
+- **New prototypes** — Kiro interviews you about your idea, chooses the technology, and builds iteratively
+- **Rebuilding existing tools** — Kiro asks you to share what you have (code, screenshots, documents, or a description), understands it first, then rebuilds and improves it
+
+**The power also controls:**
 - Which technology Kiro chooses (without asking you)
 - When Kiro recommends involving a developer
 - What happens if you want to build a mobile app (PWA instead of React Native)
@@ -40,7 +43,8 @@ fvst-kiro-power/
     ├── 02-tech-decision.md       ← Decision tree for technology choices
     ├── 03-pwa-patterns.md        ← Patterns for mobile apps (auto-loaded)
     ├── 04-handoff.md             ← Handoff to technical colleague (auto-loaded)
-    └── 05-prototype-review.md    ← Prototype review (/prototype-review)
+    ├── 05-prototype-review.md    ← Prototype review (/prototype-review)
+    └── 06-refactor-onboarding.md ← Rebuild/improve existing systems (auto-loaded)
 ```
 
 ---
